@@ -4,6 +4,7 @@ import HelloWorld  from './Hello World';
 import Hobbies from './Hobbies';
 import Likes from './Likes';
 import Wants from './Wants';
+import Favorites from './Favorites';
 
 class App extends Component {
   render() {
@@ -13,6 +14,7 @@ class App extends Component {
         <Hobbies />
         <Likes />
         <Wants />
+        <Favorites />
       </div>
     );
   }
