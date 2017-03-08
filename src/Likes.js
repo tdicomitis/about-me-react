@@ -1,18 +1,12 @@
 import React from 'react';
+import List from './List'
 
 var Likes = React.createClass({
   render: function() {
     return (
       <div className="container my-cont">
-        <ul>
-          <h3> Things That I Like </h3>
-          <li> Cats </li>
-          <li> Cabernet Sauvignon </li>
-          <li> Cheese (Cheddar FTW) </li>
-          <li> Skyrim </li>
-          <li> Coffee </li>
-          <li> German Shepherds </li>
-        </ul>
+        <h3> Likes </h3>
+       <List data= {["Cats", "Cavernet Sauvignon", "Cheese", "Skyrim", "Coffee"]} />
       </div>
     )
   }

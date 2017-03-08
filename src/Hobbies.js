@@ -13,5 +13,4 @@ var Hobbies = React.createClass({
   }
 });
 
-
 export default Hobbies;
